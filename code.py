@@ -29,3 +29,27 @@ while True:
     time.sleep(10)
 
 
+#import getopt
+# argument = sys.argv[1:]
+# short_options = "hpsa"
+# long_options = ["help", "port", "sms", "admin"]
+# try:
+#     arguments, values = getopt.getopt(argument, short_options, long_options)
+#     for x, y in arguments :
+#         if x in ("-h", "--help"):
+#             usage()
+#         elif x in ("-p", "--port"):
+#             port()
+#         elif x in ("-a", "--admin"):
+#             admin()
+#         elif x in ("-s", "--sms"):
+#             sms()
+#         else:
+#             print("Invalid syntax")
+# except getopt.error as err:
+#     print(str(err))
+
+# if len(sys.argv[1:]) == 0:
+#     banner()
+#     print(Fore.YELLOW + "\n    for more information type -h or --help")
+
